@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans';
+}
+
+.header{
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: right;
+    padding-right: 230px;
+    padding-top: 216px;
+    height: 808px;
+}
+.heading{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    
+}
+.heading-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.button{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FF5959;
+    margin-bottom: 166px;
+}
+
+/* My Failures  */
+
+.failures{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-top: 140px;
+}
+.failure-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.my-failures{
+    /* margin-left: 134px; */
+    padding-top: 230px;
+    
+}
+.failure-description{
+    margin-bottom: 16px;
+}
+.tik-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+/* My Plans */
+
+.my-plans{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+.plan-names{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+.plan-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 130px;
+}
+
+/* Positive Mindset */
+
+section.mindset{
+    background-image: url(images/watch.png), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.mindset-section{
+    padding-left: 100px;
+}
+.positive-mindset{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+.call{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 18px 35px;
+    border: none;
+    height: 64px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    background-color: #151414;
+    margin-top: 130px;
+}
+.footer1, .footer2{
+    padding-top: 130px;
+}
+.future{
+    color: #f8f8f8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.future-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.image{
+    margin-bottom: 130px;
+}
+.subscribe{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.input{
+    color: #f3f3f3;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 21px;
+    background: #151414;
+    width: 100%;
+    margin-bottom: 16px;
+}
+.subs{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 18px 35px;
+    border: none;
+}
